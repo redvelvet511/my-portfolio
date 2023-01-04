@@ -1,6 +1,7 @@
 import classes from "./index.module.css";
 import Navbar from "./navbar";
 import MyImg from "../../assets/MyImg.png";
+import Arrow from "../../components/arrow";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
           <img src={MyImg} alt="MyImg" className={classes.myPhoto} />
         </div>
       </div>
+      <Arrow text="Projects"/>
     </div>
   );
 };

@@ -1,0 +1,23 @@
+.arrow {
+  width: 40px;
+  height: 40px;
+  animation: bounce 0.4s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+  animation-iteration-count: infinite;
+}
+
+.arrowText {
+  color: white;
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+@keyframes bounce {
+  from {
+      transform: translate3d(0, 0, 0);
+  }
+  to {
+      transform: translate3d(0, 8px, 0);
+  }
+}
