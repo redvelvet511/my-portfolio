@@ -1,15 +1,13 @@
-import { useState } from "react";
-
 import classes from "./index.module.css";
 import LinkedInIcon from "../../../assets/LinkedInIcon.png";
-import InsgramIcon from "../../../assets/InstagramIcon.png";
+import LinkedInIconHover from "../../../assets/LinkedInIconHover.png";
+import InstagramIcon from "../../../assets/InstagramIcon.png";
+import InstagramIconHover from "../../../assets/InstagramIconHover.png";
 import GithubIcon from "../../../assets/GithubIcon.png";
+import GithubIconHover from "../../../assets/GithubIconHover.png";
+import ClickableIcon from "../../../components/clickable-icon";
 
 const Navbar = () => {
-  const [isHoveringLinkedIn, setIsHoveringLinkedIn] = useState(false);
-  const [isHoveringInstagram, setIsHoveringInstagram] = useState(false);
-  const [isHoveringGithub, setIsHoveringGithub] = useState(false);
-
   const onInstagramClick = (event) => {
     window.open("");
   };
@@ -21,28 +19,28 @@ const Navbar = () => {
   };
 
   return (
-    <div className={classes["navbar-container"]}>
-      <div className={classes["social-links"]}>
-        <img
-          src={LinkedInIcon}
-          alt="LinkedinIcon"
+    <div className={classes.navbarContainer}>
+      <div>
+        <ClickableIcon
+          className={classes.socialLink}
+          icon={LinkedInIcon}
+          hoverIcon={LinkedInIconHover}
+          alt="Linkedin"
           onClick={onLinkedInClick}
-          onMouseOver={() => setIsHoveringLinkedIn(true)}
-          onMouseOut={() => setIsHoveringLinkedIn(false)}
         />
-        <img
-          src={InsgramIcon}
-          alt="InstagramIcon"
+        <ClickableIcon
+          className={classes.socialLink}
+          icon={InstagramIcon}
+          hoverIcon={InstagramIconHover}
+          alt="Instagram"
           onClick={onInstagramClick}
-          onMouseOver={() => setIsHoveringInstagram(true)}
-          onMouseOut={() => setIsHoveringInstagram(false)}
         />
-        <img
-          src={GithubIcon}
-          alt="GithubIcon"
+        <ClickableIcon
+          className={classes.socialLink}
+          icon={GithubIcon}
+          hoverIcon={GithubIconHover}
+          alt="Github"
           onClick={onGithubClick}
-          onMouseOver={() => setIsHoveringGithub(true)}
-          onMouseOut={() => setIsHoveringGithub(false)}
         />
       </div>
       <div className={classes.directory}>
