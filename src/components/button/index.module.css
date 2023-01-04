@@ -1,0 +1,10 @@
+.button {
+  padding: 5px 10px;
+  background-color: #c0e300;
+  border-radius: 3px;
+  border: 0;
+  color: black;
+  font-style: italic;
+  font-family: "Fira Sans", sans-serif;
+  cursor: pointer;
+}

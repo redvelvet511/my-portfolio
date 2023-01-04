@@ -2,6 +2,7 @@ import classes from "./index.module.css";
 import Navbar from "./navbar";
 import MyImg from "../../assets/MyImg.png";
 import Arrow from "../../components/arrow";
+import Button from "../../components/button";
 
 const Home = () => {
   return (
@@ -21,11 +22,20 @@ const Home = () => {
               in love with coding, project management & design :&#41;
               ..transitioning my career in the tech industry.
             </p>
+            <Button
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/messaging/thread/new/?recipients=List(urn%3Ali%3Afsd_profile%3AACoAADgtGEABIfEao7KMOsUx8rOwmDnAW4-zz-A)&composeOptionType=PREMIUM_INMAIL"
+                )
+              }
+            >
+              Get in touch!
+            </Button>
           </div>
           <img src={MyImg} alt="MyImg" className={classes.myPhoto} />
         </div>
       </div>
-      <Arrow text="Projects"/>
+      <Arrow text="Projects" />
     </div>
   );
 };
