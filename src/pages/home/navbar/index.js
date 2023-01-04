@@ -8,14 +8,14 @@ import GithubIconHover from "../../../assets/GithubIconHover.png";
 import ClickableIcon from "../../../components/clickable-icon";
 
 const Navbar = () => {
-  const onInstagramClick = (event) => {
-    window.open("");
+  const openInstagram = (event) => {
+    window.open("https://www.instagram.com/sndrabr/");
   };
-  const onLinkedInClick = (event) => {
-    window.open("");
+  const openLinkedIn = (event) => {
+    window.open("https://www.linkedin.com/in/lsndrabr");
   };
-  const onGithubClick = (event) => {
-    window.open("");
+  const openGithub = (event) => {
+    window.open("https://github.com/redvelvet511");
   };
 
   return (
@@ -26,21 +26,21 @@ const Navbar = () => {
           icon={LinkedInIcon}
           hoverIcon={LinkedInIconHover}
           alt="Linkedin"
-          onClick={onLinkedInClick}
+          onClick={openLinkedIn}
         />
         <ClickableIcon
           className={classes.socialLink}
           icon={InstagramIcon}
           hoverIcon={InstagramIconHover}
           alt="Instagram"
-          onClick={onInstagramClick}
+          onClick={openInstagram}
         />
         <ClickableIcon
           className={classes.socialLink}
           icon={GithubIcon}
           hoverIcon={GithubIconHover}
           alt="Github"
-          onClick={onGithubClick}
+          onClick={openGithub}
         />
       </div>
       <div className={classes.directory}>
