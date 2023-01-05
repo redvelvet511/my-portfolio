@@ -1,6 +1,6 @@
 .figmaContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .maternitySide {
@@ -9,21 +9,21 @@
 }
 
 .climbarkPrototype {
-  margin-top: 200px;
+  margin-top: 20px;
   width: 500px;
-  height: 400px;
+  height: 380px;
 }
 
 .maternityPrototype {
-  width: 600px;
-  height: 400px;
+  margin-top: 300px;
+  width: 550px;
+  height: 380px;
 }
 
 .climbarkPrototypePointer {
-  margin-top: 100px;
-  width: 280px;
-  float: left;
-  margin-bottom: 180px;
+  margin-top: 50px;
+  width: 200px;
+  display: block;
 }
 
 .maternityPrototypePointer {

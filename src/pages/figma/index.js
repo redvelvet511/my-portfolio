@@ -14,6 +14,11 @@ const Figma = () => {
     <div>
       <div id="figma" className={classes.figmaContainer}>
         <div className={classes.climbarkSide}>
+        <img
+            src={climbarkprototypepointer}
+            alt="Climbark Prototype Pointer"
+            className={classes.climbarkPrototypePointer}
+          />
           <img
             src={climbarkprototype}
             alt="Climbark Protoype"
@@ -21,11 +26,6 @@ const Figma = () => {
           />
         </div>
         <div className={classes.maternitySide}>
-          <img
-            src={climbarkprototypepointer}
-            alt="Climbark Prototype Pointer"
-            className={classes.climbarkPrototypePointer}
-          />
           <img
             src={maternityprototype}
             alt="Maternity Protoype"
