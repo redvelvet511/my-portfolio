@@ -8,6 +8,13 @@ import GithubIconHover from "../../../assets/GithubIconHover.png";
 import ClickableIcon from "../../../components/clickable-icon";
 
 const Navbar = () => {
+  const scrollToProjects = () => {
+    document.getElementById("climbark").scrollIntoView({behavior: "smooth"});
+  }
+  const scrollToFigma = () => {
+    document.getElementById("figma").scrollIntoView({behavior: "smooth"});
+  }
+
   const openInstagram = () => {
     window.open("https://www.instagram.com/sndrabr/");
   };
@@ -44,9 +51,8 @@ const Navbar = () => {
         />
       </div>
       <div className={classes.directory}>
-        <p>About Me</p>
-        <p>Projects</p>
-        <p>Designs</p>
+        <p onClick={scrollToProjects}>Projects</p>
+        <p onClick={scrollToFigma}>Designs</p>
       </div>
     </div>
   );
