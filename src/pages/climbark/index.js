@@ -10,9 +10,7 @@ const Climbark = () => {
   return (
     <div>
       <div className={classes.climbarkContainer}>
-        <div>
-          <Phone />
-        </div>
+        <Phone />
         <div className={classes.climbarkSummaryContainer}>
           <h1 id="climbark">1. Climbark</h1>
           <p className={classes.climbarkDescription1}>

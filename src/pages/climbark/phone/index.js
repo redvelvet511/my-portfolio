@@ -1,15 +1,19 @@
 import classes from "./index.module.css";
+import PhoneFrame from "../../../assets/iphone-frame.png";
 
 const Phone = () => {
   return (
-    <iframe
-      className={classes.phone}
-      height="700"
-      width="375"
-      frameBorder="no"
-      title="Climbark"
-      src="http://www.climbark.com"
-    />
+    <div className={classes.phoneFrameWrapper}>
+      <div className={classes.phoneiFrameWrapper}>
+        <iframe
+          className={classes.phoneiFrame}
+          frameBorder="no"
+          title="Climbark"
+          src="http://www.climbark.com"
+        />
+      </div>
+      <img className={classes.phoneFrame} src={PhoneFrame} alt="Phone Frame" />
+    </div>
   );
 };
 
