@@ -46,7 +46,7 @@ const Climbark = () => {
                 - Inconvenient route checking
                 <br />- Inefficient logs
                 <br />
-                -No progress tracking
+                - No progress tracking
               </p>
             </div>
             <div className={classes.climbarkSolution}>

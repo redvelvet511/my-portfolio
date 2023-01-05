@@ -46,7 +46,7 @@
 
 .pitchContainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 5px;
   margin-top: 40px;
 }
@@ -60,7 +60,7 @@ h2 {
 }
 
 .climbarkTarget {
-  width: 200px;
+  width: 300px;
 }
 
 .climbarkTarget p {
@@ -73,7 +73,7 @@ h2 {
 }
 
 .climbarkPain {
-  width: 200px;
+  width: 300px;
 }
 
 .climbarkPain p {
@@ -86,7 +86,7 @@ h2 {
 }
 
 .climbarkSolution {
-  width: 200px;
+  width: 300px;
 }
 
 .climbarkSolution p {
