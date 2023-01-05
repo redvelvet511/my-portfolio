@@ -1,15 +1,32 @@
 .OneForAllContainer {
   display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.OneForAllSummaryContainer {
+  margin-top: 300px;
+  text-align: left;
+  width: 600px;
+}
+
+.buttonAndTechnologyUsed {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .OneForAllImg {
-  width: 350px;
-  height: 350px;
+  width: 550px;
+  height: 550px;
+  padding-left: 30px;
 }
 
-h1 {
+.OneForAllContainer h1 {
   color: #C0E300;
-  font-size: 20px;
+  font-size: 35px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .OneForAllDescription {
@@ -17,11 +34,23 @@ h1 {
   color: white;
   font-style: italic;
   font-weight: lighter;
-  font-size: 13px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .technologyUsed {
-  width: 200px;
-  height: 30px;
+  width: 250px;
+  height: 40px;
+}
+
+.arrowToJobOracle {
+  margin-top:20px;
+}
+
+.titleAndImgContainer {
+  text-align: left;
+}
+
+.titleAndImgContainer h1 {
+  margin-left: 30px;
 }

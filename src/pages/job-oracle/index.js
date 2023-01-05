@@ -5,14 +5,14 @@ import Arrow from "../../components/arrow";
 
 const JobOracle = () => {
   const scrollToFigma = () => {
-    document.getElementById("figma").scrollIntoView({behavior: "smooth"});
-  }
+    document.getElementById("figma").scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <div>
-      <div className={classes.JobOracleContainer}>
-        <div className={classes.JobOracleDescription}>
-          <h1 id="jobhuntingoracle">3. Job Hunting Oracle</h1>
+      <div id="jobhuntingoracle" className={classes.jobOracleContainer}>
+        <div className={classes.jobOracleDescription}>
+          <h1>3. Job Hunting Oracle</h1>
           <p>
             Keep track of the latest job postings you’re interested in from
             different job sites through email and SMS with keywords you used to
@@ -23,18 +23,28 @@ const JobOracle = () => {
             alt="Technologies Used"
             className={classes.technologyUsedJobOracle}
           />
-        </div>
-        <div>
-          <iframe
-            title="Job Hunting Oracle"
-            width="710"
-            height="400"
-            src="https://drive.google.com/file/d/1GcShpyUlOvMUQvy0C531r9ywdZ79zfJr/preview"
+          <div className={classes.pressPlayImg}>
+          <img
+            src={pressplay}
+            alt="Press Play Pointer"
+            className={classes.pressPlayPointer}
           />
-          <img src={pressplay} alt="Press Play Pointer" className={classes.pressPlayPointer} />
+          </div>
+        </div>
+        <div className={classes.videoContainer}>
+          <div>
+            <iframe
+              title="Job Hunting Oracle"
+              width="650"
+              height="380"
+              src="https://drive.google.com/file/d/1GcShpyUlOvMUQvy0C531r9ywdZ79zfJr/preview"
+            />
+          </div>
         </div>
       </div>
-      <Arrow text="Figma Prototypes" onClick={scrollToFigma}/>
+      <div className={classes.arrowPointerToFigma}>
+        <Arrow text="Figma Prototypes" onClick={scrollToFigma} />
+      </div>
     </div>
   );
 };

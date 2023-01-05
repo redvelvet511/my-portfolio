@@ -9,10 +9,10 @@ const Climbark = () => {
   };
   return (
     <div>
-      <div className={classes.climbarkContainer}>
+      <div id="climbark" className={classes.climbarkContainer}>
         <Phone />
         <div className={classes.climbarkSummaryContainer}>
-          <h1 id="climbark">1. Climbark</h1>
+          <h1>1. Climbark</h1>
           <p className={classes.climbarkDescription1}>
             Climbark's purpose is to make the overall climbing experience for
             outdoor rock climbers easier. The idea is to scrap the book that we,
@@ -55,7 +55,9 @@ const Climbark = () => {
           </div>
         </div>
       </div>
-      <Arrow onClick={scrollToOneForAll} />
+      <div className={classes.arrowToOneForAll}>
+        <Arrow onClick={scrollToOneForAll} />
+      </div>
     </div>
   );
 };

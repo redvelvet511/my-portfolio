@@ -7,4 +7,7 @@
   font-style: italic;
   font-family: "Fira Sans", sans-serif;
   cursor: pointer;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
 }

@@ -1,24 +1,26 @@
-h1 {
+.jobOracleDescription h1 {
+  margin-top: 200px;
   color: #C0E300;
-  font-size: 20px;
+  font-size: 35px;
 }
 
-.JobOracleContainer {
+.jobOracleContainer {
   display: flex;
+  justify-content: space-evenly;
 }
 
-.JobOracleDescription {
+.jobOracleDescription {
   text-align: left;
-  width: 40%;
+  width: 600px;
 }
 
-.JobOracleDescription p {
+.jobOracleDescription p {
   text-align: left;
   color: white;
   font-style: italic;
   font-weight: lighter;
-  font-size: 13px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .technologyUsedJobOracle {
@@ -26,6 +28,20 @@ h1 {
   height: 35px;
 }
 
+.videoContainer {
+  margin-top: 200px;
+}
+
 .pressPlayPointer {
-  scale: 60%;
+  width: 140px;
+  vertical-align: bottom;
+}
+
+.arrowPointerToFigma {
+  margin-top: 130px;
+}
+
+.pressPlayImg {
+  margin-top: 200px;
+  float: right;
 }

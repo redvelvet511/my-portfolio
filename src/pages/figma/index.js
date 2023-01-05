@@ -12,16 +12,15 @@ const Figma = () => {
 
   return (
     <div>
-      <div className={classes.figmaContainer}>
-        <div>
+      <div id="figma" className={classes.figmaContainer}>
+        <div className={classes.climbarkSide}>
           <img
-            id="figma"
             src={climbarkprototype}
             alt="Climbark Protoype"
             className={classes.climbarkPrototype}
           />
         </div>
-        <div>
+        <div className={classes.maternitySide}>
           <img
             src={climbarkprototypepointer}
             alt="Climbark Prototype Pointer"
@@ -39,6 +38,7 @@ const Figma = () => {
           />
         </div>
       </div>
+
       <Arrow text="Scroll to the top!" up={true} onClick={scrollToTop} />
     </div>
   );

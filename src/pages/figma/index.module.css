@@ -3,22 +3,30 @@
   justify-content: space-around;
 }
 
+.maternitySide {
+  display: block;
+  max-width: 600px;
+}
+
 .climbarkPrototype {
-  width: 400px;
-  height: 300px;
+  margin-top: 200px;
+  width: 500px;
+  height: 400px;
 }
 
 .maternityPrototype {
-  width: 400px;
-  height: 300px;
+  width: 600px;
+  height: 400px;
 }
 
 .climbarkPrototypePointer {
-  scale: 60%;
+  margin-top: 100px;
+  width: 280px;
   float: left;
+  margin-bottom: 180px;
 }
 
 .maternityPrototypePointer {
-  scale: 60%;
+  width: 320px;
   float: left;
 }

@@ -12,9 +12,9 @@ const OneForAll = () => {
 
   return (
     <div>
-      <div className={classes.OneForAllContainer}>
-        <div>
-          <h1 id="oneforall">2. OneForAll</h1>
+      <div id="oneforall" className={classes.OneForAllContainer}>
+        <div className={classes.titleAndImgContainer}>
+          <h1>2. OneForAll</h1>
           <img
             src={oneforall}
             alt="OneForAll"
@@ -29,15 +29,19 @@ const OneForAll = () => {
             Rent temporary superpowers and rent out your superpowers in
             exchange!
           </p>
+          <div className={classes.buttonAndTechnologyUsed}>
           <Button onClick={tryMe}>Try Me</Button>
           <img
             src={technologyUsed}
             alt="Technologies Used"
             className={classes.technologyUsed}
           />
+          </div>
         </div>
       </div>
+      <div className={classes.arrowToJobOracle}>
       <Arrow onClick={scrollToJobHuntingOracle}/>
+      </div>
     </div>
   );
 };

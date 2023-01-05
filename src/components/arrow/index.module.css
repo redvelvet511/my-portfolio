@@ -1,6 +1,6 @@
 .arrow {
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   animation: bounce 0.4s;
   animation-direction: alternate;
   animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
@@ -10,7 +10,7 @@
 
 .arrowText {
   color: white;
-  font-size: 12px;
+  font-size: 18px;
   margin-top: 0px;
   cursor: pointer;
 }

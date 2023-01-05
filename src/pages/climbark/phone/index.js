@@ -10,22 +10,24 @@ const Phone = () => {
         alt="Pointer to phone"
         className={classes.pointerToPhone}
       />
-      <div className={classes.phoneFrameWrapper}>
-        <div className={classes.phoneiFrameWrapper}>
-          <iframe
-            className={classes.phoneiFrame}
-            frameBorder="no"
-            title="Climbark"
-            src="http://www.climbark.com"
+      <div className={classes.phoneContainer}>
+        <div className={classes.phoneFrameWrapper}>
+          <div className={classes.phoneiFrameWrapper}>
+            <iframe
+              className={classes.phoneiFrame}
+              frameBorder="no"
+              title="Climbark"
+              src="http://www.climbark.com"
+            />
+          </div>
+          <img
+            className={classes.phoneFrame}
+            src={PhoneFrame}
+            alt="Phone Frame"
           />
         </div>
-        <img
-          className={classes.phoneFrame}
-          src={PhoneFrame}
-          alt="Phone Frame"
-        />
       </div>
-    </div>
+  </div>
   );
 };
 
