@@ -1,0 +1,94 @@
+.climbarkContainer {
+  display: flex;
+}
+
+.climbarkSummaryContainer {
+  width: 50%;
+  text-align: left;
+}
+
+h1 {
+  color: #C0E300;
+  font-size: 20px;
+}
+
+.climbarkDescription1 {
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.climbarkDescription2wrap {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+
+.climbarkDescription2 {
+  text-align: left;
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.technologyUsed {
+  width: 200px;
+  height: 30px;
+}
+
+.pitchContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+h2 {
+  text-align: center;
+  color: #C0E300;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.climbarkTarget {
+  width: 200px;
+}
+
+.climbarkTarget p {
+  text-align: left;
+  color: white;
+  font-size: 11px;
+  font-weight: lighter;
+  font-style: italic;
+  line-height: 25px;
+}
+
+.climbarkPain {
+  width: 200px;
+}
+
+.climbarkPain p {
+  text-align: left;
+  color: white;
+  font-size: 11px;
+  font-weight: lighter;
+  font-style: italic;
+  line-height: 25px;
+}
+
+.climbarkSolution {
+  width: 200px;
+}
+
+.climbarkSolution p {
+  text-align: left;
+  color: white;
+  font-size: 11px;
+  font-weight: lighter;
+  font-style: italic;
+  line-height: 25px;
+}

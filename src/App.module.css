@@ -4,4 +4,5 @@
   height: 100vh;
   text-align: center;
   background-size: cover;
+  overflow-y: scroll;
 }
