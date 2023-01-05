@@ -12,23 +12,27 @@
   margin-top: 20px;
   width: 490px;
   height: 360px;
+  cursor: pointer;
 }
 
 .maternityPrototype {
   margin-top: 80px;
   width: 550px;
   height: 380px;
+  cursor: pointer;
 }
 
 .climbarkPrototypePointer {
   margin-top: 150px;
-  width: 200px;
+  width: 300px;
   display: block;
+  cursor: pointer;
 }
 
 .maternityPrototypePointer {
-  width: 320px;
+  width: 330px;
   float: left;
+  cursor: pointer;
 }
 
 .arrowToTop {

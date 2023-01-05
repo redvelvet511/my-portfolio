@@ -1,5 +1,5 @@
 .phoneFrameWrapper {
-  width: 335px;
+  width: 345px;
   height: 620px;
   position: relative;
 }
@@ -25,7 +25,7 @@
   overflow: hidden;
 
   /* Settings to position in phone frame properly */
-  margin-left: 8px;
+  margin-left: 19px;
   padding: 0;
   border-radius: 42px;
 }
