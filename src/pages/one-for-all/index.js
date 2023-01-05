@@ -5,13 +5,16 @@ import Button from "../../components/button";
 import technologyUsed from "../../assets/technologyUsed.png";
 
 const OneForAll = () => {
+  const scrollToJobHuntingOracle = () => {
+    document.getElementById("jobhuntingoracle").scrollIntoView({behavior: "smooth"});
+  }
   const tryMe = () => window.open("http://oneforall.herokuapp.com/");
 
   return (
     <div>
       <div className={classes.OneForAllContainer}>
         <div>
-          <h1>2. OneForAll</h1>
+          <h1 id="oneforall">2. OneForAll</h1>
           <img
             src={oneforall}
             alt="OneForAll"
@@ -34,7 +37,7 @@ const OneForAll = () => {
           />
         </div>
       </div>
-      <Arrow />
+      <Arrow onClick={scrollToJobHuntingOracle}/>
     </div>
   );
 };

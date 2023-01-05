@@ -5,6 +5,9 @@ import Arrow from "../../components/arrow";
 import Button from "../../components/button";
 
 const Home = () => {
+  const scrollToClimbark = () => {
+    document.getElementById("climbark").scrollIntoView({behavior: "smooth"});
+  }
   const getInTouch = () =>
     window.open(
       "https://www.linkedin.com/messaging/thread/new/?recipients=List(urn%3Ali%3Afsd_profile%3AACoAADgtGEABIfEao7KMOsUx8rOwmDnAW4-zz-A)&composeOptionType=PREMIUM_INMAIL"
@@ -32,7 +35,7 @@ const Home = () => {
           <img src={MyImg} alt="MyImg" className={classes.myPhoto} />
         </div>
       </div>
-      <Arrow text="Projects" />
+      <Arrow text="Projects" onClick={scrollToClimbark}/>
     </div>
   );
 };

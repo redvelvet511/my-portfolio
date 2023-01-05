@@ -9,8 +9,13 @@ const Arrow = (props) => {
         src={props.up ? upArrow : arrow}
         alt="arrow"
         className={classes.arrow}
+        onClick={props.onClick}
       />
-      {props.text && <p className={classes.arrowText}>{props.text}</p>}
+      {props.text && (
+        <p className={classes.arrowText} onClick={props.onClick}>
+          {props.text}
+        </p>
+      )}
     </div>
   );
 };

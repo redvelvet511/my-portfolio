@@ -3,11 +3,15 @@ import jobhuntingoracle from "../../assets/jobhuntingoracle.png";
 import Arrow from "../../components/arrow";
 
 const JobOracle = () => {
+  const scrollToFigma = () => {
+    document.getElementById("figma").scrollIntoView({behavior: "smooth"});
+  }
+
   return (
     <div>
       <div className={classes.JobOracleContainer}>
         <div className={classes.JobOracleDescription}>
-          <h1>3. Job Hunting Oracle</h1>
+          <h1 id="jobhuntingoracle">3. Job Hunting Oracle</h1>
           <p>
             Keep track of the latest job postings you’re interested in from
             different job sites through email and SMS with keywords you used to
@@ -28,7 +32,7 @@ const JobOracle = () => {
           />
         </div>
       </div>
-      <Arrow text="Figma Prototypes" />
+      <Arrow text="Figma Prototypes" onClick={scrollToFigma}/>
     </div>
   );
 };

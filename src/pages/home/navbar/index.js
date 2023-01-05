@@ -8,18 +8,18 @@ import GithubIconHover from "../../../assets/GithubIconHover.png";
 import ClickableIcon from "../../../components/clickable-icon";
 
 const Navbar = () => {
-  const openInstagram = (event) => {
+  const openInstagram = () => {
     window.open("https://www.instagram.com/sndrabr/");
   };
-  const openLinkedIn = (event) => {
+  const openLinkedIn = () => {
     window.open("https://www.linkedin.com/in/lsndrabr");
   };
-  const openGithub = (event) => {
+  const openGithub = () => {
     window.open("https://github.com/redvelvet511");
   };
 
   return (
-    <div className={classes.navbarContainer}>
+    <div id="navBar" className={classes.navbarContainer}>
       <div>
         <ClickableIcon
           className={classes.socialLink}
