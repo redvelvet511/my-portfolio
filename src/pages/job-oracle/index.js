@@ -1,5 +1,6 @@
 import classes from "./index.module.css";
 import jobhuntingoracle from "../../assets/jobhuntingoracle.png";
+import pressplay from "../../assets/pressplay.png";
 import Arrow from "../../components/arrow";
 
 const JobOracle = () => {
@@ -30,6 +31,7 @@ const JobOracle = () => {
             height="400"
             src="https://drive.google.com/file/d/1GcShpyUlOvMUQvy0C531r9ywdZ79zfJr/preview"
           />
+          <img src={pressplay} alt="Press Play Pointer" className={classes.pressPlayPointer} />
         </div>
       </div>
       <Arrow text="Figma Prototypes" onClick={scrollToFigma}/>

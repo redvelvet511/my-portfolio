@@ -44,3 +44,7 @@
   -ms-transform-origin: top left;
   transform-origin: top left;
 }
+
+.pointerToPhone {
+  scale: 70%;
+}
