@@ -20,7 +20,7 @@ const Home = () => {
         <div className={classes.introductionContainer}>
           <div className={classes.introductionBody}>
             <p className={classes.greetings}>
-              Hi, I'm <span className={classes.myName}>Sandra</span>
+              Hi, I'm <span className={classes.myName}>Lisandra</span>
             </p>
             <p className={classes.aboutMe}>
               Full Stack Dev | Rock Climber | Chess Beginner

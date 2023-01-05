@@ -10,18 +10,18 @@
 
 .climbarkPrototype {
   margin-top: 20px;
-  width: 500px;
-  height: 380px;
+  width: 490px;
+  height: 360px;
 }
 
 .maternityPrototype {
-  margin-top: 300px;
+  margin-top: 80px;
   width: 550px;
   height: 380px;
 }
 
 .climbarkPrototypePointer {
-  margin-top: 50px;
+  margin-top: 150px;
   width: 200px;
   display: block;
 }
@@ -29,4 +29,8 @@
 .maternityPrototypePointer {
   width: 320px;
   float: left;
+}
+
+.arrowToTop {
+  margin-top: 50px;
 }
