@@ -1,0 +1,27 @@
+.OneForAllContainer {
+  display: flex;
+}
+
+.OneForAllImg {
+  width: 350px;
+  height: 350px;
+}
+
+h1 {
+  color: #C0E300;
+  font-size: 20px;
+}
+
+.OneForAllDescription {
+  text-align: left;
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.technologyUsed {
+  width: 200px;
+  height: 30px;
+}

@@ -1,0 +1,14 @@
+.figmaContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.climbarkPrototype {
+  width: 400px;
+  height: 300px;
+}
+
+.maternityPrototype {
+  width: 400px;
+  height: 300px;
+}

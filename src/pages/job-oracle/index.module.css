@@ -1,0 +1,27 @@
+h1 {
+  color: #C0E300;
+  font-size: 20px;
+}
+
+.JobOracleContainer {
+  display: flex;
+}
+
+.JobOracleDescription {
+  text-align: left;
+  width: 40%;
+}
+
+.JobOracleDescription p {
+  text-align: left;
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.technologyUsedJobOracle {
+  width: 80px;
+  height: 35px;
+}
