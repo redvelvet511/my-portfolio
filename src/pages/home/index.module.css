@@ -46,16 +46,27 @@
 }
 
 .myPhoto {
-  width: 38%;
+  width: 37%;
   height: auto;
 }
 
 .introductionBody {
-  width: 500px;
+  width: 600px;
   text-align: left;
   margin-right: 50px;
 }
 
 .arrowToProject {
   margin-top: -20px;
+}
+
+.buttonAndViewPortfolio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonAndViewPortfolio p {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
 }

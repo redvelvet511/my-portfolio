@@ -5,9 +5,15 @@ import Button from "../../components/button";
 import technologyUsed from "../../assets/technologyUsed.png";
 
 const OneForAll = () => {
+  const viewOneForAllCode = () =>
+    window.open(
+      "https://github.com/Komezu/rails-superpowersbnb.git"
+    );
   const scrollToJobHuntingOracle = () => {
-    document.getElementById("jobhuntingoracle").scrollIntoView({behavior: "smooth"});
-  }
+    document
+      .getElementById("jobhuntingoracle")
+      .scrollIntoView({ behavior: "smooth" });
+  };
   const tryMe = () => window.open("http://oneforall.herokuapp.com/");
 
   return (
@@ -30,17 +36,20 @@ const OneForAll = () => {
             exchange!
           </p>
           <div className={classes.buttonAndTechnologyUsed}>
-          <Button onClick={tryMe}>Try Me</Button>
-          <img
-            src={technologyUsed}
-            alt="Technologies Used"
-            className={classes.technologyUsed}
-          />
+            <Button onClick={tryMe}>Try Me</Button>
+            <img
+              src={technologyUsed}
+              alt="Technologies Used"
+              className={classes.technologyUsed}
+            />
+          </div>
+          <div className={classes.viewOneForAllCode}>
+            <p onClick={viewOneForAllCode}>View oneforall code &gt;</p>
           </div>
         </div>
       </div>
       <div className={classes.arrowToJobOracle}>
-      <Arrow onClick={scrollToJobHuntingOracle}/>
+        <Arrow onClick={scrollToJobHuntingOracle} />
       </div>
     </div>
   );

@@ -5,7 +5,7 @@
 }
 
 .climbarkSummaryContainer {
-  width: 50%;
+  width: 890px;
   text-align: left;
   margin-top: 150px;
 }
@@ -48,7 +48,7 @@
   display: flex;
   justify-content: space-evenly;
   padding: 5px;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 h2 {
@@ -100,4 +100,10 @@ h2 {
 
 .arrowToOneForAll {
   margin-top: 0px;
+}
+.viewClimbarkCode {
+  margin-top: 35px;
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
 }

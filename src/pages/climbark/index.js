@@ -7,6 +7,8 @@ const Climbark = () => {
   const scrollToOneForAll = () => {
     document.getElementById("oneforall").scrollIntoView({ behavior: "smooth" });
   };
+  const viewClimbarkCode = () =>
+    window.open("https://github.com/redvelvet511/rails-climbark.git");
   return (
     <div>
       <div id="climbark" className={classes.climbarkContainer}>
@@ -27,6 +29,9 @@ const Climbark = () => {
               alt="Technologies Used"
               className={classes.technologyUsed}
             />
+          </div>
+          <div className={classes.viewClimbarkCode}>
+            <p onClick={viewClimbarkCode}>View climbark code &gt;</p>
           </div>
           <div className={classes.pitchContainer}>
             <div className={classes.climbarkTarget}>

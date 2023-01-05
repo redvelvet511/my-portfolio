@@ -54,3 +54,9 @@
 .titleAndImgContainer h1 {
   margin-left: 30px;
 }
+
+.viewOneForAllCode {
+  margin-top: 40px;
+  color: white;
+  text-decoration: underline;
+}
