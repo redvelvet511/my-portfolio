@@ -27,7 +27,7 @@ const Home = () => {
               Hi, I'm <span className={classes.myName}>Lisandra</span>
             </p>
             <p className={classes.aboutMe}>
-              Full Stack Dev | Rock Climber | Chess Beginner
+              Full Stack Dev | Rock Climber | Chess Player
             </p>
             <p className={classes.introductionSummary}>
               I have a bachelor’s in International Relations but recently fell

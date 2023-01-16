@@ -1,11 +1,12 @@
 import classes from "./index.module.css";
 import LinkedInIcon from "../../../assets/LinkedInIcon.png";
 import LinkedInIconHover from "../../../assets/LinkedInIconHover.png";
-import InstagramIcon from "../../../assets/InstagramIcon.png";
-import InstagramIconHover from "../../../assets/InstagramIconHover.png";
+import ResumeIcon from "../../../assets/ResumeIcon.png";
+import ResumeIconHover from "../../../assets/ResumeIconHover.png";
 import GithubIcon from "../../../assets/GithubIcon.png";
 import GithubIconHover from "../../../assets/GithubIconHover.png";
 import ClickableIcon from "../../../components/clickable-icon";
+import Lisandra_Bautista_Resume from "../../../assets/Lisandra_Bautista_Resume.pdf"
 
 const Navbar = () => {
   const scrollToProjects = () => {
@@ -15,8 +16,8 @@ const Navbar = () => {
     document.getElementById("figma").scrollIntoView({behavior: "smooth"});
   }
 
-  const openInstagram = () => {
-    window.open("https://www.instagram.com/sndrabr/");
+  const openResume = () => {
+    window.open(Lisandra_Bautista_Resume);
   };
   const openLinkedIn = () => {
     window.open("https://www.linkedin.com/in/lsndrabr");
@@ -37,17 +38,17 @@ const Navbar = () => {
         />
         <ClickableIcon
           className={classes.socialLink}
-          icon={InstagramIcon}
-          hoverIcon={InstagramIconHover}
-          alt="Instagram"
-          onClick={openInstagram}
-        />
-        <ClickableIcon
-          className={classes.socialLink}
           icon={GithubIcon}
           hoverIcon={GithubIconHover}
           alt="Github"
           onClick={openGithub}
+        />
+        <ClickableIcon
+          className={classes.socialLinkResume}
+          icon={ResumeIcon}
+          hoverIcon={ResumeIconHover}
+          alt="Resume"
+          onClick={openResume}
         />
       </div>
       <div className={classes.directory}>
