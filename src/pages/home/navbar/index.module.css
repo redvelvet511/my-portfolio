@@ -12,12 +12,16 @@
   width: 30px;
 }
 
-.socialLinkResume {
-  margin-top: 20px;
-  margin-right: 15px;
-  height: 35px;
-  width: 40px;
+/* .socialLinkResume {
+  height: 34px;
+  width: 38px;
 }
+
+.socialLinkGitHub {
+  height: 32px;
+  width: 33px;
+  padding-right: 10px;
+} */
 
 .directory p {
   float: left;

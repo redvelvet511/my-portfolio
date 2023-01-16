@@ -44,7 +44,7 @@ const Navbar = () => {
           onClick={openGithub}
         />
         <ClickableIcon
-          className={classes.socialLinkResume}
+          className={classes.socialLink}
           icon={ResumeIcon}
           hoverIcon={ResumeIconHover}
           alt="Resume"
