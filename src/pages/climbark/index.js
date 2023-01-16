@@ -41,7 +41,7 @@ const Climbark = () => {
               </p>
             </div>
             <div className={classes.climbarkPain}>
-              <h2>Pain</h2>
+              <h2>Problem</h2>
               <p>
                 - Inconvenient route checking
                 <br />- Inefficient logs
