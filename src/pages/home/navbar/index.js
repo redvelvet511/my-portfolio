@@ -43,13 +43,13 @@ const Navbar = () => {
           alt="Github"
           onClick={openGithub}
         />
-        <ClickableIcon
+        {/* <ClickableIcon
           className={classes.socialLink}
           icon={ResumeIcon}
           hoverIcon={ResumeIconHover}
           alt="Resume"
           onClick={openResume}
-        />
+        /> */}
       </div>
       <div className={classes.directory}>
         <p onClick={scrollToProjects}>Projects</p>

@@ -8,6 +8,22 @@
   max-width: 600px;
 }
 
+.effetterreSide {
+  margin-top: 20px;
+  margin-left: 240px;
+  display: flex;
+  max-width: 600px;
+}
+
+.ccSide {
+  margin-left: 240px;
+  max-width: 600px;
+}
+
+.ccSide img {
+  width: 380px;
+}
+
 .climbarkPrototype {
   margin-top: 20px;
   width: 490px;

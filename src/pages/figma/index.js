@@ -3,6 +3,8 @@ import climbarkprototype from "../../assets/climbarkprototype.png";
 import climbarkprototypepointer from "../../assets/climbarkprototypepointer.png";
 import maternityprototype from "../../assets/maternityprototype.png";
 import maternityprototypepointer from "../../assets/maternityprototypepointer.png";
+import effetterreprototype from "../../assets/effetterre.png";
+import ccprototype from "../../assets/cc.png";
 import Arrow from "../../components/arrow";
 
 const Figma = () => {
@@ -50,6 +52,21 @@ const Figma = () => {
           />
         </div>
       </div>
+      <div className={classes.effetterreSide}>
+        <img
+          src={effetterreprototype}
+          alt="Effetterre Protoype"
+          className={classes.maternityPrototype}
+        />
+        <div className={classes.ccSide}>
+          <img
+            src={ccprototype}
+            alt="Effetterre Protoype"
+            className={classes.maternityPrototype}
+          />
+        </div>
+      </div>
+      <h2>Effetterre and Chocolat Chaud Prototype</h2>
       <div className={classes.arrowToTop}>
         <Arrow text="Scroll to the top!" up={true} onClick={scrollToTop} />
       </div>
